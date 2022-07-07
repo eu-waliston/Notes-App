@@ -4,30 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Note App</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <div class="container">
-
-        <!--Edit Note Container-->
-        <div class="edit-note">
-            <i class="fa-solid fa-arrow-left"></i>
-            <textarea class="note-title-input" placeholder="Title"></textarea>
-            <textarea class="note-body-input" placeholder="Start typing"></textarea>
+    <div class="notes" id="app">
+        <!-- <div class="notes__sidebar">
+            <button class="notes__add" type="button">Add Note</button>
+            <div class="notes__list">
+                <div class="notes__list-item notes__list-item--selected">
+                    <div class="notes__small-title">Lecture Notes</div>
+                    <div class="notes__small-body">I learnt nothing today.</div>
+                    <div class="notes__small-updated">Thursday 3:30pm</div>
+                </div>
+            </div>
         </div>
-
-        <!--All Notes Insert In this Box-->
-        <div class="note-box">
-
-        </div>
-
-        <!--Add Note Buton-->
-        <button class="add-note-btn">
-            <i class="fa-solid fa-plus"></i>
-        </button>
+        <div class="notes__preview">
+            <input class="notes__title" type="text" placeholder="Enter a title...">
+            <textarea class="notes__body">I am the notes body...</textarea>
+        </div> -->
     </div>
-
-    <script src="script.js"></script>
+    <script src="./js/main.js" type="module"></script>
 </body>
 </html>
